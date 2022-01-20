@@ -10,5 +10,5 @@ preMerge:
     - "./test/index.js"
 postRun:
   command:
-    - yarn --version # Mention post-run steps here
+    - yarn --version
 version: 1.0
