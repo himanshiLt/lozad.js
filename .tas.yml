@@ -1,11 +1,12 @@
+---
 framework: mocha  
 preRun:
   command:
     - yarn install
-postMerge:
+preMerge:
   pattern:
     - "./test/index.js"
-preMerge:
+postMerge:
   pattern:
     - "./test/index.js"
 postRun:
